@@ -6,6 +6,7 @@ body {
 .navbar-brand {
     font-family: 'Rancho', cursive;
     font-size: 3.5rem;
+    color: #DAC5A0 !important;
 }
 
 .bg-dark {
@@ -13,17 +14,18 @@ body {
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #F0A00A;
+    /* color: #F0A00A; */
+    color: #DAC5A0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #F0A00A;
+    color: #DAC5A0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #DAC5A0;
+    color: #F0A00A;
 }
 
 .navbar {
