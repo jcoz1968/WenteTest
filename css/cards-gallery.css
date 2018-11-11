@@ -1,6 +1,6 @@
 .gallery-block {
 	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-top: 35px;
 }
 
 .gallery-block .heading {
@@ -14,7 +14,7 @@
 }
 
 .gallery-block.cards-gallery h6 {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: bold; 
 }
 

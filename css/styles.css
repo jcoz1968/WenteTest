@@ -5,8 +5,8 @@ body {
 
 .navbar-brand {
     font-family: 'Rancho', cursive;
-    font-size: 3.5rem;
-    color: #DAC5A0 !important;
+    font-size: 4.0rem;
+    color: #F1E1C4 !important;
 }
 
 .bg-dark {
@@ -15,11 +15,11 @@ body {
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     /* color: #F0A00A; */
-    color: #DAC5A0;
+    color: rgb(228, 217, 200);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #DAC5A0;
+    color: #F1E1C4;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
 }
@@ -49,3 +49,8 @@ body {
 }
 
 .nav-link{padding:15px 5px;transition:0.2s;}
+
+li > i {
+    color: #F1E1C4;
+    padding-left: 5px !important;
+}
