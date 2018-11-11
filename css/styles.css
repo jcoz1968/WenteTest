@@ -26,9 +26,24 @@ body {
     color: #DAC5A0;
 }
 
-
-
 .navbar {
     padding-top: .1rem;
     padding-bottom: .1rem;
 }
+.nav-item::after{
+    content:'';
+    display:block;
+    width:0px;
+    height:2px;
+    background:#fec400;
+    transition: 0.2s;
+}
+
+.nav-item:hover::after{
+    width:100%;
+}
+#navbarSupportedContent > ul > li.nav-item {
+    margin-right: 1.5rem;
+}
+
+.nav-link{padding:15px 5px;transition:0.2s;}
