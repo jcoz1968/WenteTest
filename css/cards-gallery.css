@@ -1,6 +1,11 @@
 .gallery-block {
-	padding-bottom: 60px;
-	padding-top: 35px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.morepics {
+  margin-bottom:40px;
+  padding-bottom: 40px !important;
 }
 
 .gallery-block .heading {
@@ -57,6 +62,26 @@
 
 .card-title {
   font-weight: bold;
+}
+
+.details-gallery img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 150px;
+}
+
+.details-gallery .thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.details-gallery .pl-3, .px-3 {
+  padding-left: .3rem!important;
+}
+
+.breadcrumb {
+  background-color: #F5F1E7;
 }
 
 @media (min-width: 576px) {
